@@ -1,4 +1,22 @@
-# Development-Kit
+
+## Support and Commands
+![Windows](https://img.shields.io/badge/Windows-OK-green)
+![Windows](https://img.shields.io/badge/mkdir-green)
+![Windows](https://img.shields.io/badge/rmdir-green)
+![Windows](https://img.shields.io/badge/cp-green)
+![Windows](https://img.shields.io/badge/mv-green)
+![Windows](https://img.shields.io/badge/rm-green)
+![Windows](https://img.shields.io/badge/touch-green)
+  
+![Linux](https://img.shields.io/badge/Linux-OK-green)
+![Linux](https://img.shields.io/badge/mkdir-green)
+![Linux](https://img.shields.io/badge/rmdir-green)
+![Linux](https://img.shields.io/badge/cp-green)
+![Linux](https://img.shields.io/badge/mv-green)
+![Linux](https://img.shields.io/badge/rm-green)
+![Linux](https://img.shields.io/badge/touch-green)
+
+## Development-Kit
 Game development toolkit Made in C with lua scripts.  
 Toolkit to Create, Generate, Manipulate and compile projects in C/C++. 
 This tool automatically generates project files based on a TargetRules.lua file located in the root directory. It supports various development environments and provides automated configurations for debugging and Intellisense. Below is an overview of its features:
@@ -23,23 +41,6 @@ Visual Studio Code.
 Vim and Neovim (via plugins and automated setups).
 Objective
 The main goal of this tool is to provide an easy-to-use and functional integration across different IDEs and editors. Developers can choose their preferred environment, while the system handles most of the configuration automatically, reducing manual effort.
-
-## Support and Commands
-![Windows](https://img.shields.io/badge/Windows-OK-green)
-![Windows](https://img.shields.io/badge/mkdir-green)
-![Windows](https://img.shields.io/badge/rmdir-green)
-![Windows](https://img.shields.io/badge/cp-green)
-![Windows](https://img.shields.io/badge/mv-green)
-![Windows](https://img.shields.io/badge/rm-green)
-![Windows](https://img.shields.io/badge/touch-green)
-  
-![Linux](https://img.shields.io/badge/Linux-BRICK-red)
-![Linux](https://img.shields.io/badge/mkdir-red)
-![Linux](https://img.shields.io/badge/rmdir-red)
-![Linux](https://img.shields.io/badge/cp-red)
-![Linux](https://img.shields.io/badge/mv-red)
-![Linux](https://img.shields.io/badge/rm-red)
-![Linux](https://img.shields.io/badge/touch-red)
 
 ## Instructions
 Have a GCC or Clang compiler available via the terminal.  

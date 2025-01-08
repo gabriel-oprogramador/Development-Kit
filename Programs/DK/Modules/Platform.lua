@@ -15,7 +15,7 @@ local windowsCmd = {
 }
 
 local linuxCmd = {
-	mkdir = 'mkdir -p',
+	mkdir = 'mkdir -p ',
 	rmdir = 'rm -rf ',
 	checkPath = 'test -d "%s" && echo true || echo false',
 	findFilesType = 'find "%s" -maxdepth 1 -type f -name "*%s"',
@@ -85,7 +85,6 @@ function MakeDir(Path)
 	if DirExists(Path) then
 		return;
 	end
-
 	local currentPath = ""
 	for dir in string.gmatch(Path, "[^/\\]+") do
 		currentPath = currentPath .. dir .. "/"

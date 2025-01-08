@@ -4,7 +4,6 @@ require('Platform')
 function Generator(Args, Index)
 	print('Generator')
 	dofile('TargetRules.lua')
-	print('GE')
 end
 
 function MakeDirectory(Args, Index)
